@@ -55,13 +55,14 @@
             // 
             // btnClear
             // 
+            this.btnClear.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.Location = new System.Drawing.Point(310, 250);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(75, 31);
+            this.btnClear.Size = new System.Drawing.Size(108, 31);
             this.btnClear.TabIndex = 6;
-            this.btnClear.Text = "Clear";
-            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Text = "Clear text";
+            this.btnClear.UseVisualStyleBackColor = false;
             // 
             // btnLogin
             // 
